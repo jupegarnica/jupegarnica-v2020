@@ -6,7 +6,7 @@ build:
 
 
 install:
-	deno install -Af --unstable -n deno-create-react-app https://deno.land/x/create_react_app/mod.ts
+	deno install --global -Af --unstable -n deno-create-react-app https://deno.land/x/create_react_app/mod.ts
 
 release:
 	sh ./release.sh
